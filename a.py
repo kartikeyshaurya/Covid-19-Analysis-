@@ -5,7 +5,7 @@ import numpy as np
 
 st.title("Covid 19 Data Analysis")
 
-
+'''
 #magic keywords 
 st.write("Here's our first attempt at using data to create a table:")
 
@@ -15,16 +15,14 @@ df = pd.DataFrame({
 })
 df
 
+'''
+
+'''
+
+# line chart 
 chart_data = pd.DataFrame(
 np.random.randn(20, 3),
 columns=['a', 'b', 'c'])
-st.line_chart(chart_data)  
-
-map_data = pd.DataFrame(
-np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
-columns=['lat', 'lon'])
-st.map(map_data)
-
-
-
-github_gist("https://gist.github.com/wildjcrt/cda0ef5a729220225ac5bb1d6325e9e7")
+st.line_chart(chart_data)
+'''
+# Plot 
